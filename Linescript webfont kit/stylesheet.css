@@ -5,6 +5,6 @@
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/Linescript.woff2') format('woff2'),
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/Linescript.woff') format('woff'),
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/Linescript.ttf')  format('truetype'),
-    src: url('https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/Linescript.otf')  format('truetype'),
+    src: url('https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/Linescript.otf')  format('opentype'),
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/Linescript.svg#Linescript') format('svg');
 }
