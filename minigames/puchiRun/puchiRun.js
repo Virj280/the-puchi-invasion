@@ -116,7 +116,6 @@ function clearScreen() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
-link.href = 'https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/stylesheet.css';
 function showPuchiL() {
     const fontSize = 70 * scaleRatio;
     ctx.font = `${fontSize}px Linescript`;
