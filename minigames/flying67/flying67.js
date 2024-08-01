@@ -97,7 +97,7 @@ function update() {
  
     link.type = 'text/css';
  
-    link.href = 'stylesheet.css';
+    link.href = 'https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/stylesheet.css';
 context.fillStyle = "#ff0000";
 context.font="70px Linescript";
 context.fillText(score, 5, 70);
