@@ -1,0 +1,9 @@
+body {
+    font-family: 'Linescript';
+    text-align: center;
+}
+
+#board {
+    background-color: aquamarine;
+    background-image: url("./sprites/bg.png");
+}
