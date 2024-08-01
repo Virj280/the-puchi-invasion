@@ -7,7 +7,7 @@ const canvas = document.getElementById("puchiRun")
 const ctx = canvas.getContext("2d");
 
 const GAME_SPEED_START = 0.8
-const GAME_SPEED_INCREMENT = 0.000002;
+const GAME_SPEED_INCREMENT = 0.000001;
 
 const GAME_WIDTH = 1000;
 const GAME_HEIGHT = 426;
