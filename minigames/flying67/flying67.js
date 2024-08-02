@@ -52,6 +52,7 @@ window.onload = function () {
     requestAnimationFrame(update);
     setInterval(placePipes, 3500);
     document.addEventListener("keydown", movePuchi);
+    document.addEventListener("touchstart", movePuchi);
 
     }
 }
@@ -139,7 +140,7 @@ function placePipes() {
 }
 
 function movePuchi(e) {
-    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
+    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "touchstart") {
         velocityY = -5;
         if (puchiL) {
             puchi.y = puchiY;
