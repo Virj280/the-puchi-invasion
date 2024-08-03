@@ -76,7 +76,7 @@ export default class Puchi {
             this.image = this.PuchiStillImage;
         }
 
-        if(puchi:) {
+        if(puchiL) {
             this.image.src = ./sprites/puchi-dead.png;
         }
         
