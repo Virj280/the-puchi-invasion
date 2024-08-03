@@ -17,6 +17,15 @@
       } 
       </style>
     <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var form = document.createElement('form');
+    var input = document.createElement('input');
+    input.type = 'password';
+    input.name = 'password';
+    form.appendChild(input);
+    document.body.appendChild(form);
+  });
+      
       $(document).ready(function() {
         $("#secretDiv").hide();
       });
