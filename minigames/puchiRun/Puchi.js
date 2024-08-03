@@ -76,10 +76,6 @@ export default class Puchi {
             this.image = this.PuchiStillImage;
         }
 
-        if(puchiL) {
-            this.image.src = ./sprites/puchi-dead.png;
-        }
-        
         this.jump(frameTimeDelta);
     }
 
