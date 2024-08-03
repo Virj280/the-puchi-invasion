@@ -23,7 +23,7 @@
       
       function protectpasscode() {
       
-      a = document.getElementById("password");
+      a = document.getElementById("longIdToPreventUsersFromViewingCode");
       
       var enteredPasscode = a.value.trim();
       var correctPasscode = '756309';
@@ -164,7 +164,7 @@
       <a style="font-family: Linescript; font-size:20px; margin-top:500px; margin-bottom:100px" href="https://docs.google.com/document/d/1jAkuiQmKjT9NgrbmxE7JRuiGoCQUU93lQRfktANjsLI/edit">Sources of this article</a>
       <p style="color:#ffff00; font-family: Linescript; font-size: 20px; margin-top: 150px">This is what the Puchi Invasion was. Now that you've read the article, try to find the hidden puchis.</p>
       <p style='color:#ff0000; font-family: Linescript'>Enter the pin that was revealed to you by the hidden puchis.</p>
-      <input type='password' value='' id='puchiCode' style="font-family:Linescript">
+      <input type='password' value='' id='longIdToPreventUsersFromViewingCode' style="font-family:Linescript">
       <input type='checkbox' onclick='protectpasscode()'>
       <h style='color:#ff0000; font-family: Linescript'>Check pin validity</h>
       <div id="secretDiv">
