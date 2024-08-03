@@ -74,7 +74,6 @@ export default class Puchi {
         
         if(this.jumpInProgress) {
             this.image = this.PuchiStillImage;
-        }
 
         this.jump(frameTimeDelta);
     }
