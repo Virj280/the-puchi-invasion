@@ -17,8 +17,8 @@ let puchi = {
 }
 
 let pipeArray = [];
-let pipeWidth = 120;
-let pipeHeight = 654;
+let pipeWidth = 100;
+let pipeHeight = 638;
 let pipeX = boardWidth;
 let pipeY = 0;
 
