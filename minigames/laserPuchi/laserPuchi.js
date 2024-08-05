@@ -167,7 +167,7 @@ function fire(e) {
     }
     if (e.code == "Space") {
         let laser = {
-            x : puchi.x + puchiWidth - 104,
+            x : puchi.x + puchiWidth - 105,
             y : puchi.y + 90,
             width : 7,
             height : 20,
