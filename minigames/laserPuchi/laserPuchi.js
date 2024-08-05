@@ -130,9 +130,6 @@ function update() {
     context.fillStyle="#ff0000";
     context.font="32px courier";
     context.fillText(score, 10, 40);
-    if (puchiL){
-        context.fillText("L YOU DIED", 75, 580)
-}
 
 function movePuchi(e) {
     if (puchiL) {
