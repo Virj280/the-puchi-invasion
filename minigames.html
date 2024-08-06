@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+        <link rel="stylesheet" href="https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/stylesheet.css" type="text/css" charset="utf-8" />
+        <link rel="icon" href="https://virj280.github.io/the-puchi-invasion/index_images/Puchi-favicon.ico" type="image/x-icon">
+        <title>Minigames</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+        <a href='https://virj280.github.io/the-puchi-invasion'>Home</a>
+        <a href='https://virj280.github.io/the-puchi-invasion/extendedArticle.html'>Extended Article</a>
+        <a href='https://virj280.github.io/the-puchi-invasion/minigames.html'>Minigames</a>
+        <meta charset="utf-8" />
+    <body style="background-color: #010033;">
+        <style>
+            * {
+              text-align: center;
+            } 
+            
+
+            a:href {
+          color: #b2fff3;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:visited {
+          color: #00a179;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: underline;
+        }    
+
+      hr {  
+            height: 4px;  
+            background-color: #00ff68;  
+            border: none;  
+        }
+            </style>
+          <script>
+            $(document).ready(function() {
+                  $("#secretDiv").hide();
+                });
+      function protectpasscode() {
+      
+      a = document.getElementById("puchiCode");
+      
+      var enteredPasscode = a.value.trim();
+      var correctPasscode = '756309';
+      
+      console.log('Entered passcode:', enteredPasscode);
+      
+      
+      
+      if (enteredPasscode === correctPasscode) {
+      
+          console.log('Correct passcode entered!');
+          $("#secretDiv").show();
+         
+      } else {
+          console.log('Incorrect passcode.');
+      }
+      }
+  </script>
+
+  <p style='color:#ff0000; font-family: Linescript'>Enter the pin that was revealed to you by the hidden puchis.</p>
+      <input type='password' value='' id='puchiCode' style="font-family:Linescript" size='6'></input>
+      <input type='button' onclick='protectpasscode()' id='passcodeCheck' value='Enter pin' style='color:#ff0000; font-family: Linescript'></input>
+<div id="secretDiv">
+    <p id='prize' style='color: #00ca62; font-family:Linescript; font-size:20px; margin-bottom:1000px'>Congratulations! You have unlocked hidden pages as a reward for finding all the hidden puchis. This page contain no hidden puchis, but has minigames. Scroll down to see more.</p>
+        <p style="color:#b2fff3; font-family: Linescript">Now that you've read all the famous puchi bios (hopefully), you can now play the minigames!</p>
+        <hr>
+        <h1 style='color: #8cff00; font-family:Linescript; font-size:100px'><u>"Minigames"</u><br></h1>
+        <h5 style='color: #8cff00; font-family:Linescript'>and totally not just reskins of other games</h5>
+        <a style="font-family: Linescript; font-size:20px;" href="https://virj280.github.io/the-puchi-invasion/minigames/flying67/flying67.html">Flying 67</a>
+          <p style="color:#00ff00; font-family: Linescript">How to play:</p>
+          <p style="color:#00ff00; font-family: Linescript">-Use space/up arrow to jump<br>-Use space/up arrow to restart<br>-Hold to keep flying<br>-Does not work on mobile<br>-Set page zoom to 80% if you do not have a monitor<br>-It's literally just puchi Flappy Bird<br><br></p>
+          <a style="font-family: Linescript; font-size:20px;" href="https://virj280.github.io/the-puchi-invasion/minigames/puchiRun/puchiRun.html">Puchi Run</a>
+          <p style="color:#00ff00; font-family: Linescript">How to play:</p>
+          <p style="color:#00ff00; font-family: Linescript">-Use space/tap to jump, hold to jump higher<br>-Press any key to restart/start</p>
+          <a style="font-family: Linescript; font-size:20px;" href="https://virj280.github.io/the-puchi-invasion/minigames/laserPuchi/laserPuchi.html">Laser Puchi</a>
+          <p style="color:#00ff00; font-family: Linescript">How to play:</p>
+          <p style="color:#00ff00; font-family: Linescript">-Set page zoom to 90% if you have a monitor, 70% if you do not<br>-Use space to shoot, spam to shoot more<br>-Use arrow keys to move left and right, no up and down<br>-Reload the page to restart</p>
+      </div>
+    </body>
+  </head>
