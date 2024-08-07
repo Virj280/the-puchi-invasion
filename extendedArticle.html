@@ -30,6 +30,51 @@
                 * {
                   text-align: center;
                 } 
+       
+          a {
+          color: #b2fff3;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:visited {
+          color: #00a179;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: underline;
+        }    
+
+      hr {  
+            height: 4px;  
+            background-color: #00ff68;  
+            border: none;  
+        }  
+      
+      .nav-link {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: none;
+          }
+      
+      .nav-link:hover {
+          color: #6f00ff;
+          background-color: transparent;
+          text-decoration: none;
+      }
+
+      .nav-link:visited {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: none;
+      }
                 
                 </style>
               <script>
@@ -119,41 +164,6 @@
       });
       });
     </script>
-    <style>
-        a {
-          color: #b2fff3;
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        a:visited {
-          color: #00a179;
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        a:hover {
-          color: red;
-          background-color: transparent;
-          text-decoration: underline;
-        }
-        a:active {
-          color: #ff5100;
-          background-color: transparent;
-          text-decoration: underline;
-        }    
-
-      hr {  
-            height: 4px;  
-            background-color: #00ff68;  
-            border: none;  
-        }  
-     
-      .nav-link {
-          color: #ff5100;
-          background-color: transparent;
-          text-decoration: none;
-          }
-        </style>  
-                </script>
                 <p style='color:#ff0000; font-family: Linescript'>Enter the pin that was revealed to you by the hidden puchis.</p>
       <input type='password' value='' id='puchiCode' style="font-family:Linescript" size='6'></input>
       <input type='button' onclick='protectpasscode()' id='passcodeCheck' value='Enter pin' style='color:#ff0000; font-family: Linescript'></input>
