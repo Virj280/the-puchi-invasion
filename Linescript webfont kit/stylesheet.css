@@ -1,11 +1,10 @@
 @font-face {
     font-family:'Linescript';
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.eot');
-	src: url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.ttf') format('truetype'),
+    src: url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.eot?#iefix') format('embedded-opentype'),
+        	url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.ttf') format('truetype'),
 		url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.woff2') format('woff2'),
 		url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.woff') format('woff'),
-		url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript Regular.svg#Linescript Regular') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
