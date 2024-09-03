@@ -1,1 +1,156 @@
-In progress.
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+        <link rel="icon" href="https://virj280.github.io/the-puchi-invasion/index_images/Puchi-favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://virj280.github.io/the-puchi-invasion/Linescript%20webfont%20kit/stylesheet.css" type="text/css" charset="utf-8" />
+        <title>The Puchi Invasion of 2024 - Chubby Puchi Shrine</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <body style="background-color: #010033;">
+        <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://virj280.github.io/the-puchi-invasion/index.html" style="font-family: Linescript">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://virj280.github.io/the-puchi-invasion/extendedArticle.html" style="font-family: Linescript">Extended Article</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://virj280.github.io/the-puchi-invasion/biographies.html" style="font-family: Linescript">Puchi Biographies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://virj280.github.io/the-puchi-invasion/puchiOlympics.html" style="font-family: Linescript">Puchi Olympics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://virj280.github.io/the-puchi-invasion/chubbyShrine.html" style="font-family: Linescript">Chubby Puchi Shrine</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://virj280.github.io/the-puchi-invasion/minigames.html" style="font-family: Linescript">Minigames</a>
+              </li>
+            </ul>
+          </nav>
+       <style>
+     * {
+        text-align: center;
+      } 
+
+        a {
+          color: #b2fff3;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:visited {
+          color: #00a179;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: underline;
+        }    
+
+      hr {  
+            height: 4px;  
+            background-color: #00ff68;  
+            border: none;  
+        }  
+      
+      .nav-link {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: none;
+          }
+      
+      .nav-link:hover {
+          color: #6f00ff;
+          background-color: transparent;
+          text-decoration: none;
+      }
+
+      .nav-link:visited {
+          color: #ff5100;
+          background-color: transparent;
+          text-decoration: none;
+      }
+
+         .nav-link:visited:hover {
+        color: #6f00ff;
+          background-color: transparent;
+          text-decoration: none;
+      }
+      </style>
+              <script>
+                $(document).ready(function() {
+                  $("#secretDiv").hide();
+                });
+                function protectpasscode() {
+      
+      a = document.getElementById("puchiCode");
+      
+      var enteredPasscode = a.value.trim();
+      var correctPasscode = '756309';
+      
+      console.log('Entered passcode:', enteredPasscode);
+      
+      
+      
+      if (enteredPasscode === correctPasscode) {
+      
+          console.log('Correct passcode entered!');
+          $("#secretDiv").show();
+         
+      } else {
+          console.log('Incorrect passcode.');
+      }
+      }
+
+      $(document).ready(function() {
+      $("#btnClick1").on( "click", function() {
+      $( "#chubbyPuchi" ).animate({
+      height: "toggle"
+      }, 2000, function() {
+      });
+      });
+      });
+
+      $(document).ready(function() {
+      $("#btnClick2").on( "click", function() {
+      $( "#chubbyPuchiDucky" ).animate({
+      height: "toggle"
+      }, 2000, function() {
+      });
+      });
+      });
+    </script>
+                <p style='color:#ff0000; font-family: Linescript'>Enter the pin that was revealed to you by the hidden puchis.</p>
+      <input type='text' value='' id='puchiCode' style="font-family:Linescript" size='6'></input>
+      <input type='button' onclick='protectpasscode()' id='passcodeCheck' value='Enter pin' style='color:#ff0000; font-family: Linescript'></input>
+<div id="secretDiv">
+        <p id='prize' style='color: #00ca62; font-family:Linescript; font-size:20px; margin-bottom:1000px'>Congratulations! You have unlocked hidden pages as a reward for finding all the hidden puchis. This page contains no hidden puchis, but is a shrine celebrating Chubby Puchi. Scroll down to see more.</p>
+        <h1 style="color: #ff9900; font-family: Linescript; font-size:100px; margin-bottom:100px"><u>Chubby Puchi Shrine</u></h1>
+        <p style="color: #00ffcc; font-family: Linescript; font-size:20px">This is a page that contains several artifacts about the renowned puchi Chubby Puchi. Below is chubby Puchi.</p>
+        <p style="font-family:Linescript; color:#ffaa00"><button id="btnClick1" type="button">Click to squish/stretch Chubby Puchi</button></p>
+        <img id="chubbyPuchi" title="Chubby Puchi." src="https://virj280.github.io/the-puchi-invasion/index_images/Chubby-Puchi.png" alt="Chubby Puchi." style="color: #ffa500; text-align: center; font-style: normal; font-family: Linescript; width:504px; height:504px;">
+        <p style="color: #00ffcc; font-family: Linescript; font-size:20px">Chubby Puchi is nearly fully grown, at 3'5". He is very chubby (no sh*t sherlock) and weighs about 1300 pounds. He also likes rubber duckies, and has one himself. Below is an image of Chubby Puchi's rubber ducky.</p>
+        <p style="font-family:Linescript; color:#ffaa00"><button id="btnClick2" type="button">Click to squish/stretch Chubby Puchi's rubber duck</button></p>
+        <img id="chubbyPuchiDucky" title="Chubby Puchi's rubber duck." src="https://virj280.github.io/the-puchi-invasion/index_images/Chubby-Puchi-Duck.png" alt="Chubby Puchi's rubber duck." style="color: #ffa500; text-align: center; font-style: normal; font-family: Linescript; width:168px; height:104px;">
+        <p style="color: #00ffcc; font-family: Linescript; font-size:20px">He also has a lot of gold. Below is Chubby Puchi's gold pile.</p>
+        <img title="Chubby Puchi's gold." src="https://virj280.github.io/the-puchi-invasion/index_images/Gold-Pile.png" alt="Chubby Puchi's gold." style="color: #ffa500; text-align: center; font-style: normal; font-family: Linescript; width:448px; height:344px;">
+        <p style="color: #00ffcc; font-family: Linescript; font-size:20px">Since Chubby Puchi is lazy, he has a lot of chairs. Below are images of the famous Puchi Chair and Chubby Puchi's couch (in that order).</p>
+        <img title="The famous Puchi Chair." src="https://virj280.github.io/the-puchi-invasion/index_images/Puchi-Chair.png" alt="The famous Puchi Chair." style="color: #ffa500; text-align: center; font-style: normal; font-family: Linescript; width:348px; height:372px;">
+        <img title="Chubby Puchi's couch." src="https://virj280.github.io/the-puchi-invasion/index_images/Chubby-Couch.png" alt="Chubby Puchi's couch." style="color: #ffa500; text-align: center; font-style: normal; font-family: Linescript; width:512px; height:372px;">
+        <p style="color: #00ffcc; font-family: Linescript; font-size:20px">That is all you have to know about Chubby Puchi.</p>
+      </div>
+    </body>
+  </head>
+  
