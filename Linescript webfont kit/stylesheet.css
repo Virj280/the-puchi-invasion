@@ -3,6 +3,7 @@
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript.eot');
     src: url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript.eot?#iefix') format('embedded-opentype'),
         	url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript.ttf') format('truetype'),
+	    	url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript.otf') format('opentype'),
 		url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript.woff2') format('woff2'),
 		url('https://virj280.github.io/the-puchi-invasion/Linescript webfont kit/Linescript.woff') format('woff'),
 }
