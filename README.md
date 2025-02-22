@@ -1,4 +1,4 @@
-_This readme is only for people who intend to edit the website; YOU DO NOT NEED TO READ THIS IF YOU ARE NOT A CODER_
+_This readme is only for people who intend to edit the website_
 
 
 **The code for this website is in the 8 following files:**
