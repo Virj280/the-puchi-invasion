@@ -51,7 +51,7 @@ window.onload = function () {
 
     requestAnimationFrame(update);
     setInterval(placePipes, 3500);
-    document.addEventListener("keyup", movePuchi);
+    document.addEventListener("keydown", movePuchi);
     document.addEventListener("touchstart", movePuchi);
 
     }
