@@ -100,7 +100,7 @@ function update() {
 
         for(let j = 0; j < swordArray.length; j++) {
             let sword = swordArray[j];
-            if(!laser.used && sword.alive && detectCollsion(laser, sword)) {
+            if(!laser.used && sword.alive && detectCollision(laser, sword)) {
                 laser.used = true;
                 sword.alive = false;
                 swordCount--;
@@ -177,7 +177,7 @@ function fire(e) {
     }
 }
 
-function detectCollsion(a, b) {
+function detectCollision(a, b) {
     return a.x < b.x + b.width && 
     a.x + a.width > b.x &&
     a.y < b.y + b.height &&
